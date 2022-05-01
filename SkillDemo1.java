@@ -16,7 +16,7 @@ public class SkillDemo1 {
         for (int i =0; i < testScores.size(); i++) {
             sum += testScores.get(i);
         }
-        return sum/testScores.size();
+        return sum*testScores.size();
     }
 
     public static void main(String[] args) {
